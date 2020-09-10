@@ -1,0 +1,1112 @@
+object FMain: TFMain
+  Left = 0
+  Top = 0
+  AlphaBlend = True
+  AlphaBlendValue = 0
+  Caption = 'FMain'
+  ClientHeight = 529
+  ClientWidth = 1081
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 1081
+    Height = 50
+    Align = alTop
+    Color = clBackground
+    ParentBackground = False
+    TabOrder = 0
+    DesignSize = (
+      1081
+      50)
+    object Label1: TLabel
+      Left = 9
+      Top = 12
+      Width = 222
+      Height = 27
+      Caption = 'SRL "Reparatie device"'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clAqua
+      Font.Height = -21
+      Font.Name = 'Trebuchet MS'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Image1: TImage
+      Left = 1033
+      Top = 3
+      Width = 44
+      Height = 44
+      Anchors = [akTop, akRight]
+      Picture.Data = {
+        0954506E67496D61676589504E470D0A1A0A0000000D49484452000000320000
+        003208060000001E3F88B100000B4B4944415478DADD9A7D8C54D519C6DF73EE
+        CCECEEECCAEE0E58286E56622D1256AB56442CBA186CAB25484BD5A8AD1FB18D
+        884DD34A146CA4C62059525DDB25DA6A915682928A41134443D0B634A0284584
+        A6E91F08A8B8ACAB01BA083B333B3B3BF7BC7DDEFB3133773E969945AAF12497
+        99BD73EFB9E7779EF7EB9C8BA22F49539FF700BE9020F7ED4E86F0D16A699AA4
+        946A518A62F8BB1EDF8998134CD4C7CC3DCCB48798BA975D10CD7CEE208B7625
+        496B0E595A35608032F0EBB552ED5AD378AD552DFE8E60FC213C417BB7180C3E
+        03883460526CB817DFB732F13A0C628F3114C73599A5E7D5FDFF4016BD93D096
+        A526E298A934DD80814FC3F708C9CC3B070418E681CE43E5029000288D633BE0
+        9EC79F9B3386F7769C1735A71CE457BB93316DD11CCBD2B70B8006006B199772
+        C7963D0ABB66EF81CAB9527ED5C2CC72B0400188B61B635611AB0D4BDA6AFB4E
+        09C8A2DD09996C516131EC69960AA9318C138C1E0CFE31B949CEC2F89DFBDFFD
+        4FE7708573ECCE52EEA70364F8081BB311501D8679EFD273A39F1DC8A27F2522
+        98BD9950E1492BA45BA18036B8D52672000CE72072737FE2876661540EC892BF
+        191886BB617277E1CFCD4B26D7A54F1A0410513CF03A2BA43A7448B718388500
+        D8EC03B067561E8DCAEB924FFC045721760C4E802CD89A44084BCE19EEC1EC2C
+        C6D71700931C31C8C2DD5042D38D3AA496284B4F301864260F22DF234BA910C5
+        347F2DAAA839A4E8509AE9408A2955E0C6F903D09E3AA24C480E76D43900937B
+        106AAF7D681865CA82DCB32B4EF087ABE1CC2BC9D22D36AECCA063C79CF2FCA0
+        5C1B1B5134FB748BBE0E9A30EE0507FDA7DFD0FAC33625ECD277FAFEA33D130B
+        6B89DF50C85186EEC013373D34395AF6DE92EDDEDDF18950E2555122032586D8
+        53420098F3A21217755583A9FDE1588BDA9B2DF717090A9E03AD3F64D3AB47EC
+        614C849DEBB500482242B71101833250E72A80ECAD18E49EDDF198D2AA0B91E9
+        6640685122E381F8C3E6613A1985A7DF33214C5FADD581F302B33FC9D4F941CE
+        42CAB9919C734C0C5D88A211CC21D45903175AB07472B4AFD4F581B6E09DE35A
+        5BFA5665A94E5BEB3169078261522A1B5A83019528185C891A51A8DC775684C6
+        421A5F095F95F7070C2D7B2F5DE2FE2096AF8C682A30354A0E3E62312D04CC33
+        4BDB8249330072F7AE7E093A93A0C60A63A9F6347E1E32AE1AA65086615A2D9E
+        7EFDB8305D31DAC2ACE61E2113B2FE93217AE5905D59475E5816F30AE34B1D7C
+        264CBC15DDDF89D37B3AF2FCA51024843BE7A188EA1A521419C4C005C4F58BCA
+        9EEDB7965A457301D3D66051144FEEC76CFC1BCEFE5CEF101DCF54DE99F26004
+        A41620E8360DB0059AE9A9656DB9A23300F2CB5DC79B10325EB2B56A1F44B64E
+        7BBE61B8304FFBB70E779E684C4423FC6AF80CD151448B7D4943C786CA49ABA8
+        9CE4DA09C7CA0922020333DB8A8FEF3F3C39FA6949905FECEA9F86ACBD651095
+        ABAF46BE838FA4F921F544E1FA447D88E3473C903A4D690480198FB4D56F2F09
+        F2F35DFD5D194D77236F396AA48D9B334AB7A01A52C39C051B1A53A3CA5DE27C
+        FF10AA1C1CA8A6B8756FD41E88A812051502E2F2DFB6352C2802F9D9CE63115C
+        BD0D6A4C7140409031C1EC3D5C6BC214DDD15A43D363E140A42A6CCFF60CD28B
+        1F9FB0742A6A8ED33B2050043E576FA99D30B7E98FB6D5A70B41CE866F6C4991
+        1A9F0244DAB851862B2C9005641E402E1F1D76E791B924C8330753B42E0B521C
+        76CB35F935E4A9520745EA2DEAC5CA6D46D7790DFB0320F3DF39361B7EB87A80
+        55CC0191DC612AB7EB668495F9136AA9DD03F15B611E597D70909EEF1DAC5A11
+        C74FB464799815401A34F5C1CC6E7BFCFC51AF0440E6ED3C361FF3D489857543
+        0A1E3E6498EC6C17852B8AC2C6D408905B5A6AE892E69053C93662FA6AACDCB5
+        3ED02A80ACFD285571BFF9D1CCAFBF3C45E208C50B9FBCB0F18F01909FEEFCF4
+        7E803C90B0A9D6372D5345989138DF8A701283F692B86E3CA386CE392D54A4CE
+        9FBB53F45C4FF58A48D379910B3E92AA53B4F4A98B1A9705407EF2F6A71D03A8
+        1593364724A888226684A1576AAD5F4FACA74B62E1A2DF561E18A0353DA9AAFB
+        F4ABE2B01B7E2572A501F2E8D3539A1607406E7BFB680700EE4D1880D8399091
+        B45170FC07CF119048400DF193151F24E9D983D583F88A84FDA8A55D90D5539B
+        8320B7EC387AFF80E107E2302D7C9E94228D007968524316243F823D0990D5DD
+        0327A9089CDDA2542DD1D235D36241D3BA79C7D1F900E8ECB7B961C0F67DA470
+        DD319C43E6BE8BA3774C6EA0A9CD39D3F2A39680ACEA4ED1F0DB1354745EE525
+        451744C56B8917FEE5D2D14167FFF13FFB66C3B456F7DB2696B4BD843842D312
+        90DFB49D16302DBFFDE1BD041CBE7A45A4B97944394B6898561F14B96DEDF4D1
+        C1F0FBA31D47CF4ED9660B2AD3F170784A79997D242C4D08619DE7BA209C5736
+        8B2A8F0364E58164D57D3A09D18B5852A23410F5A28698B1EEF2D38309F1A61D
+        472383B6D9D69F3153E29022250ECF23737801F9DD37461581487B0C204F7D50
+        3D88E31F4E3274D4A07A453BA1F7F475EDA7074B146973DFFC6F57C236770B88
+        6F5EFE964FE972A27449DF0C675F7E7E63C0D9FDB67C7FC2895CC5F7E7B7A0AF
+        F88E2EFE1115087178E2E51BAEF84A71D128ED07DB0E4F4B19DA824550240918
+        895E4E195F65F46A8E28FAFD054D2515E9DA17A727DEAF5C117F57528A042F11
+        420D4E479866BC32736CE932FE9AD70F37A1507C19D9FDB2B82DAA1877855825
+        8864F7272E6C2ACA23D27E0B1071F86A40B4B7D48DA2D8AA974FA6372CE26B36
+        5E39AEF4C26ACED6C321F8C53CA8D285301C8199D1A0CDD9BDAC6A40567CB3B9
+        64D4EA7CB71F0E1FAFB82F7F8FABC65143A35874D45810C25277E377C6955EEA
+        024412E12454BE2BB0FE693F8EB0951A417214903F5D14A3A979A6E5E79147F6
+        02647F6520F94950CCEA34D737B68699EE4469BA67E377C705AE0DB459FF38A4
+        87D8DC8AA56EE7719BC7E487E262C797569C28470364D5C531BAD84B88F91B74
+        0F4391E5FB8603C9BD7E70D6EA0E84EBE40D8A8ED4185E68313DF3DAF7C697DF
+        0EF2DB559B3F8921B37725986F4ED8AC9376DE42ABC4265D6127A2C8D3536234
+        C5291A55F66256989D77E3F4D8BEFE826107FBF01D5C361CFC4C0EDF30F54C6B
+        428617FC6DD61927DEA0F3DB957FFD78228AED5751444E90BD5AA988D3C6B8EF
+        4298B3F3564A1971CC734785513CEAA27E0F243258B767A8DC069D6B4EA286EC
+        0368B7D21510E603358C399E7546E55BA6D2BEFD5A2F61C578759A6925605AE4
+        4D662AE3AD1CB9FA485649CB6E60ABDC4A10894FA2544F98F90E848E4D7F9FDD
+        52F6DEB2ED8A4DBD910CF18D489D4B924C8E32296FAD623B3BF35CF5C65D5908
+        2F3AC9CE64D8F70B9CAB878888520F6A436BB7CE69A9FEB582DFDA377D14C5A0
+        AF430F1D50A54592A41BC95C9F31CEA10AFC66B84AD97FB0BFC7EBBDB1F27CC2
+        D951C4679D2841DC0388C521562F0062E42F7AB2301B7B2230B39943A8C25180
+        B70E30697FCDE2EFD2DB9EDF6481CA28E56FAC280FC6CA7BB123B594F804204C
+        2D5377D8F05D38BFF9F539AD27FFEACD6F976F3848B65213338A172308CC4A31
+        8DF137F244191FC80F04C19DFB9C06B9F7862AF7668ADCE884B21C071F81536F
+        B40C7568E2BDDBE69E59D1F8AA7E3DFDAD970FC630F039434ADD8E699A069088
+        4C97BFEB6267DFA30443B50BA1B2DB9FFE8B4FF107C9FF1146C626DA0E1556E1
+        FC86B7E69E796A5E4F07605EEAD608A01331F09970959B328AA6A64945E4AD96
+        F38E91F22A017F035C79AB3C0F44F657C20E00A543C43B34D37300D86C19DEFB
+        D6B5134EFD7F18C8C2ACEF96EDD410068D350E4DC2F71B0CA9CB0037DE46D0B1
+        9D31BAEF33BD0719C59CB148A52DE61406DD8BC1BF811F9FC7CF7B702EAE4965
+        DEBCB63253FACC404AB54B5FFC1003E7569BD42404B21640C42049BDF3235302
+        8AF441981E94187BF0E0EEB7AE3FF3F3FF4F355FB4F6A501F91FD5D15F7E68A8
+        1D380000000049454E44AE426082}
+      Stretch = True
+      ExplicitLeft = 1053
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 50
+    Width = 1081
+    Height = 429
+    Align = alClient
+    Color = clBackground
+    ParentBackground = False
+    TabOrder = 1
+    object PageControl1: TPageControl
+      Left = 1
+      Top = 1
+      Width = 1079
+      Height = 427
+      ActivePage = Admin
+      Align = alClient
+      TabOrder = 0
+      object Client: TTabSheet
+        Caption = 'Client'
+        object Panel4: TPanel
+          Left = 0
+          Top = 0
+          Width = 1071
+          Height = 399
+          Align = alClient
+          Color = clBackground
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'Trebuchet MS'
+          Font.Style = []
+          ParentBackground = False
+          ParentFont = False
+          TabOrder = 0
+          DesignSize = (
+            1071
+            399)
+          object Label2: TLabel
+            Left = 16
+            Top = 16
+            Width = 40
+            Height = 22
+            Caption = 'Nume'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clAqua
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label3: TLabel
+            Left = 175
+            Top = 16
+            Width = 61
+            Height = 22
+            Caption = 'Prenume'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clAqua
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label4: TLabel
+            Left = 334
+            Top = 16
+            Width = 42
+            Height = 22
+            Caption = 'Varsta'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clAqua
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label5: TLabel
+            Left = 16
+            Top = 80
+            Width = 73
+            Height = 22
+            Caption = 'Nr Telefon'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clAqua
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label6: TLabel
+            Left = 175
+            Top = 80
+            Width = 46
+            Height = 22
+            Caption = 'Sector'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clAqua
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label7: TLabel
+            Left = 16
+            Top = 146
+            Width = 97
+            Height = 22
+            Caption = 'Firma Telefon'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clAqua
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label8: TLabel
+            Left = 199
+            Top = 146
+            Width = 90
+            Height = 22
+            Caption = 'Model Telfon'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clAqua
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label9: TLabel
+            Left = 940
+            Top = 16
+            Width = 121
+            Height = 22
+            Alignment = taRightJustify
+            Anchors = [akTop, akRight]
+            Caption = 'Alegeti Problema'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clAqua
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+            ExplicitLeft = 956
+          end
+          object SpeedButton1: TSpeedButton
+            Left = 16
+            Top = 330
+            Width = 234
+            Height = 55
+            Caption = 'Submita'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clNavy
+            Font.Height = -21
+            Font.Name = 'Trebuchet MS'
+            Font.Style = [fsBold, fsItalic]
+            ParentFont = False
+            OnClick = SpeedButton1Click
+          end
+          object SpeedButton2: TSpeedButton
+            Left = 256
+            Top = 330
+            Width = 120
+            Height = 55
+            Caption = 'Anuleaza'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clBlack
+            Font.Height = -21
+            Font.Name = 'Trebuchet MS'
+            Font.Style = [fsBold, fsItalic]
+            ParentFont = False
+            OnClick = SpeedButton2Click
+          end
+          object Label11: TLabel
+            Left = 432
+            Top = 22
+            Width = 38
+            Height = 16
+            Caption = 'Label11'
+          end
+          object Label12: TLabel
+            Left = 590
+            Top = 22
+            Width = 38
+            Height = 16
+            Caption = 'Label11'
+          end
+          object Label13: TLabel
+            Left = 432
+            Top = 4
+            Width = 38
+            Height = 16
+            Caption = 'Label11'
+          end
+          object Label14: TLabel
+            Left = 590
+            Top = 4
+            Width = 38
+            Height = 16
+            Caption = 'Label11'
+          end
+          object Edit1: TEdit
+            Left = 16
+            Top = 44
+            Width = 153
+            Height = 30
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object Edit2: TEdit
+            Left = 175
+            Top = 44
+            Width = 153
+            Height = 30
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+          object SpinEdit1: TSpinEdit
+            Left = 334
+            Top = 44
+            Width = 42
+            Height = 30
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -15
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            MaxValue = 99
+            MinValue = 1
+            ParentFont = False
+            TabOrder = 2
+            Value = 18
+          end
+          object Edit3: TEdit
+            Left = 16
+            Top = 108
+            Width = 153
+            Height = 30
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 3
+          end
+          object ComboBox1: TComboBox
+            Left = 175
+            Top = 108
+            Width = 201
+            Height = 30
+            Style = csDropDownList
+            Color = clWhite
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 4
+          end
+          object ComboBox2: TComboBox
+            Left = 16
+            Top = 174
+            Width = 177
+            Height = 30
+            Style = csDropDownList
+            Color = clWhite
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 5
+            OnChange = ComboBox2Change
+          end
+          object ComboBox3: TComboBox
+            Left = 199
+            Top = 174
+            Width = 177
+            Height = 30
+            Style = csDropDownList
+            Color = clWhite
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 6
+          end
+          object ListBox1: TListBox
+            Left = 382
+            Top = 44
+            Width = 679
+            Height = 341
+            Anchors = [akLeft, akTop, akRight]
+            Color = cl3DDkShadow
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clYellow
+            Font.Height = -19
+            Font.Name = 'Trebuchet MS'
+            Font.Style = [fsBold]
+            ItemHeight = 24
+            ParentFont = False
+            TabOrder = 7
+          end
+        end
+      end
+      object Requests: TTabSheet
+        Caption = 'Requests'
+        ImageIndex = 1
+        OnShow = RequestsShow
+        object Panel5: TPanel
+          Left = 0
+          Top = 0
+          Width = 895
+          Height = 399
+          Align = alClient
+          Color = clBackground
+          ParentBackground = False
+          TabOrder = 0
+          object DBGrid1: TDBGrid
+            Left = 1
+            Top = 1
+            Width = 893
+            Height = 397
+            Align = alClient
+            DataSource = dm.DSQRequest
+            Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
+            TabOrder = 0
+            TitleFont.Charset = DEFAULT_CHARSET
+            TitleFont.Color = clWindowText
+            TitleFont.Height = -11
+            TitleFont.Name = 'Tahoma'
+            TitleFont.Style = []
+            OnCellClick = DBGrid1CellClick
+            Columns = <
+              item
+                Expanded = False
+                FieldName = 'nr'
+                Title.Alignment = taCenter
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 27
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'npp'
+                Title.Alignment = taCenter
+                Title.Caption = 'Nume Client'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 99
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'sector'
+                Title.Alignment = taCenter
+                Title.Caption = 'Sector'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 58
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'VARSTA'
+                Title.Alignment = taCenter
+                Title.Caption = 'Ani'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 32
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'NR_TELEFON'
+                Title.Alignment = taCenter
+                Title.Caption = 'Nr Telefon'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 84
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'model_telefon'
+                Title.Alignment = taCenter
+                Title.Caption = 'Model Telefon'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 99
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'problema'
+                Title.Alignment = taCenter
+                Title.Caption = 'Problema'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 157
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'DATA_REQUEST'
+                Title.Alignment = taCenter
+                Title.Caption = 'Data Req.'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 82
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'DATA_GESTIONAT'
+                Title.Alignment = taCenter
+                Title.Caption = 'Data Gest.'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 88
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'PRET'
+                Title.Alignment = taCenter
+                Title.Caption = 'Pret (lei)'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 60
+                Visible = True
+              end
+              item
+                Expanded = False
+                FieldName = 'GESTIONAT'
+                Title.Alignment = taCenter
+                Title.Caption = 'Gestionat'
+                Title.Font.Charset = DEFAULT_CHARSET
+                Title.Font.Color = clWindowText
+                Title.Font.Height = -11
+                Title.Font.Name = 'Tahoma'
+                Title.Font.Style = [fsBold]
+                Width = 59
+                Visible = True
+              end>
+          end
+        end
+        object Panel6: TPanel
+          Left = 895
+          Top = 0
+          Width = 176
+          Height = 399
+          Align = alRight
+          Color = clBackground
+          ParentBackground = False
+          TabOrder = 1
+          object SpeedButton3: TSpeedButton
+            Left = 6
+            Top = 336
+            Width = 163
+            Height = 54
+            Caption = 'Submita Schimarile'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clNavy
+            Font.Height = -16
+            Font.Name = 'Trebuchet MS'
+            Font.Style = [fsBold]
+            ParentFont = False
+            OnClick = SpeedButton3Click
+          end
+          object Label15: TLabel
+            Left = 6
+            Top = 103
+            Width = 91
+            Height = 23
+            Caption = 'Pret Final'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clAqua
+            Font.Height = -19
+            Font.Name = 'Tahoma'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object Label16: TLabel
+            Left = 16
+            Top = 183
+            Width = 37
+            Height = 13
+            Caption = 'Label16'
+          end
+          object Panel7: TPanel
+            Left = 5
+            Top = 6
+            Width = 163
+            Height = 91
+            TabOrder = 0
+            object RadioButton1: TRadioButton
+              Left = 8
+              Top = 15
+              Width = 153
+              Height = 17
+              Caption = '(0) Nu a fost vazut'
+              Font.Charset = ANSI_CHARSET
+              Font.Color = clAqua
+              Font.Height = -13
+              Font.Name = 'Trebuchet MS'
+              Font.Style = [fsBold]
+              ParentFont = False
+              TabOrder = 0
+            end
+            object RadioButton2: TRadioButton
+              Left = 8
+              Top = 38
+              Width = 153
+              Height = 17
+              Caption = '(1) In proces'
+              Font.Charset = ANSI_CHARSET
+              Font.Color = clAqua
+              Font.Height = -13
+              Font.Name = 'Trebuchet MS'
+              Font.Style = [fsBold]
+              ParentFont = False
+              TabOrder = 1
+            end
+            object RadioButton3: TRadioButton
+              Left = 8
+              Top = 61
+              Width = 153
+              Height = 17
+              Caption = '(2) Finisat'
+              Font.Charset = ANSI_CHARSET
+              Font.Color = clAqua
+              Font.Height = -13
+              Font.Name = 'Trebuchet MS'
+              Font.Style = [fsBold]
+              ParentFont = False
+              TabOrder = 2
+            end
+          end
+          object Edit4: TEdit
+            Left = 6
+            Top = 132
+            Width = 163
+            Height = 32
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -19
+            Font.Name = 'Trebuchet MS'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+          end
+        end
+      end
+      object Admin: TTabSheet
+        Caption = 'Admin'
+        ImageIndex = 2
+        object PageControl2: TPageControl
+          Left = 0
+          Top = 0
+          Width = 1071
+          Height = 399
+          ActivePage = ModeleTelefon
+          Align = alClient
+          TabOrder = 0
+          object ModeleTelefon: TTabSheet
+            Caption = 'Modele Telefon'
+            OnShow = ModeleTelefonShow
+            object Panel9: TPanel
+              Left = 0
+              Top = 0
+              Width = 1063
+              Height = 371
+              Align = alClient
+              Color = clBackground
+              ParentBackground = False
+              TabOrder = 0
+              object DBGrid2: TDBGrid
+                Left = 608
+                Top = 1
+                Width = 454
+                Height = 369
+                Align = alRight
+                DataSource = dm.DSTModel
+                TabOrder = 0
+                TitleFont.Charset = DEFAULT_CHARSET
+                TitleFont.Color = clWindowText
+                TitleFont.Height = -11
+                TitleFont.Name = 'Tahoma'
+                TitleFont.Style = []
+              end
+              object Panel8: TPanel
+                Left = 424
+                Top = 1
+                Width = 185
+                Height = 373
+                Color = clBackground
+                ParentBackground = False
+                TabOrder = 1
+                object Label17: TLabel
+                  Left = 63
+                  Top = 7
+                  Width = 56
+                  Height = 27
+                  Caption = 'Firma'
+                  Font.Charset = ANSI_CHARSET
+                  Font.Color = clAqua
+                  Font.Height = -21
+                  Font.Name = 'Trebuchet MS'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Label18: TLabel
+                  Left = 7
+                  Top = 31
+                  Width = 172
+                  Height = 27
+                  Caption = '<--------------------'
+                  Font.Charset = ANSI_CHARSET
+                  Font.Color = clAqua
+                  Font.Height = -21
+                  Font.Name = 'Trebuchet MS'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Label19: TLabel
+                  Left = 63
+                  Top = 311
+                  Width = 70
+                  Height = 27
+                  Caption = 'Modele'
+                  Font.Charset = ANSI_CHARSET
+                  Font.Color = clAqua
+                  Font.Height = -21
+                  Font.Name = 'Trebuchet MS'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Label20: TLabel
+                  Left = 5
+                  Top = 335
+                  Width = 172
+                  Height = 27
+                  Caption = '-------------------->'
+                  Font.Charset = ANSI_CHARSET
+                  Font.Color = clAqua
+                  Font.Height = -21
+                  Font.Name = 'Trebuchet MS'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+              end
+              object DBGrid3: TDBGrid
+                Left = 1
+                Top = 1
+                Width = 422
+                Height = 369
+                Align = alLeft
+                DataSource = dm.DSTFirma
+                TabOrder = 2
+                TitleFont.Charset = DEFAULT_CHARSET
+                TitleFont.Color = clWindowText
+                TitleFont.Height = -11
+                TitleFont.Name = 'Tahoma'
+                TitleFont.Style = []
+              end
+            end
+          end
+          object Operatori: TTabSheet
+            Caption = 'Operatori'
+            ImageIndex = 1
+            object Panel10: TPanel
+              Left = 0
+              Top = 0
+              Width = 1063
+              Height = 371
+              Align = alClient
+              Color = clBackground
+              ParentBackground = False
+              TabOrder = 0
+              object Panel11: TPanel
+                Left = 877
+                Top = 1
+                Width = 185
+                Height = 369
+                Align = alRight
+                Color = clBackground
+                ParentBackground = False
+                TabOrder = 0
+                object Label21: TLabel
+                  Left = 23
+                  Top = 8
+                  Width = 137
+                  Height = 27
+                  Caption = 'Operatori info'
+                  Font.Charset = ANSI_CHARSET
+                  Font.Color = clAqua
+                  Font.Height = -21
+                  Font.Name = 'Trebuchet MS'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Label22: TLabel
+                  Left = 7
+                  Top = 31
+                  Width = 172
+                  Height = 27
+                  Caption = '<--------------------'
+                  Font.Charset = ANSI_CHARSET
+                  Font.Color = clAqua
+                  Font.Height = -21
+                  Font.Name = 'Trebuchet MS'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Label23: TLabel
+                  Left = 6
+                  Top = 312
+                  Width = 179
+                  Height = 27
+                  Alignment = taCenter
+                  Caption = '(no permission)'
+                  Font.Charset = ANSI_CHARSET
+                  Font.Color = clAqua
+                  Font.Height = -21
+                  Font.Name = 'Trebuchet MS'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+                object Label24: TLabel
+                  Left = 7
+                  Top = 335
+                  Width = 180
+                  Height = 27
+                  Alignment = taCenter
+                  Caption = '(to add admins)'
+                  Font.Charset = ANSI_CHARSET
+                  Font.Color = clAqua
+                  Font.Height = -21
+                  Font.Name = 'Trebuchet MS'
+                  Font.Style = [fsBold]
+                  ParentFont = False
+                end
+              end
+              object DBGrid5: TDBGrid
+                Left = 1
+                Top = 1
+                Width = 876
+                Height = 369
+                Align = alClient
+                DataSource = dm.DSTOper
+                TabOrder = 1
+                TitleFont.Charset = DEFAULT_CHARSET
+                TitleFont.Color = clWindowText
+                TitleFont.Height = -11
+                TitleFont.Name = 'Tahoma'
+                TitleFont.Style = []
+                Columns = <
+                  item
+                    Expanded = False
+                    FieldName = 'LUCRATOR_ID'
+                    Visible = True
+                  end
+                  item
+                    Expanded = False
+                    FieldName = 'NUME'
+                    Width = 119
+                    Visible = True
+                  end
+                  item
+                    Expanded = False
+                    FieldName = 'PRENUME'
+                    Width = 135
+                    Visible = True
+                  end
+                  item
+                    Expanded = False
+                    FieldName = 'LOGIN'
+                    Width = 139
+                    Visible = True
+                  end
+                  item
+                    Expanded = False
+                    FieldName = 'PASSWORD'
+                    Width = 146
+                    Visible = True
+                  end
+                  item
+                    Expanded = False
+                    FieldName = 'TIP_ACCES'
+                    Visible = True
+                  end>
+              end
+            end
+          end
+          object ProblemeDevice: TTabSheet
+            Caption = 'Probleme Device'
+            ImageIndex = 2
+            object Panel12: TPanel
+              Left = 0
+              Top = 0
+              Width = 1063
+              Height = 371
+              Align = alClient
+              Color = clBackground
+              ParentBackground = False
+              TabOrder = 0
+              ExplicitLeft = 272
+              ExplicitTop = 160
+              ExplicitWidth = 185
+              ExplicitHeight = 41
+              object DBGrid4: TDBGrid
+                Left = 1
+                Top = 1
+                Width = 1061
+                Height = 369
+                Align = alClient
+                DataSource = dm.DSTProblema
+                TabOrder = 0
+                TitleFont.Charset = DEFAULT_CHARSET
+                TitleFont.Color = clWindowText
+                TitleFont.Height = -11
+                TitleFont.Name = 'Tahoma'
+                TitleFont.Style = []
+              end
+            end
+          end
+          object Rapoarte: TTabSheet
+            Caption = 'Rapoarte'
+            ImageIndex = 3
+            object Panel13: TPanel
+              Left = 0
+              Top = 0
+              Width = 1063
+              Height = 371
+              Align = alClient
+              Color = clBackground
+              ParentBackground = False
+              TabOrder = 0
+              ExplicitLeft = 3
+              ExplicitTop = 3
+              object SpeedButton4: TSpeedButton
+                Left = 16
+                Top = 16
+                Width = 500
+                Height = 150
+                Caption = 'Cele mai des solicitate device-uri'
+                OnClick = SpeedButton4Click
+              end
+              object SpeedButton5: TSpeedButton
+                Left = 16
+                Top = 207
+                Width = 500
+                Height = 150
+                Caption = 'Cele mai des probleme'
+                OnClick = SpeedButton5Click
+              end
+              object Shape1: TShape
+                Left = 11
+                Top = 185
+                Width = 513
+                Height = 7
+                Brush.Color = clTeal
+              end
+              object Shape2: TShape
+                Left = 526
+                Top = 8
+                Width = 7
+                Height = 356
+                Brush.Color = clTeal
+              end
+              object Label25: TLabel
+                Left = 630
+                Top = 163
+                Width = 361
+                Height = 46
+                Caption = 'More coming soon...'
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clAqua
+                Font.Height = -37
+                Font.Name = 'Trebuchet MS'
+                Font.Style = [fsBold]
+                ParentFont = False
+                WordWrap = True
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 479
+    Width = 1081
+    Height = 50
+    Align = alBottom
+    Color = clBackground
+    ParentBackground = False
+    TabOrder = 2
+    object Label10: TLabel
+      Left = 888
+      Top = 14
+      Width = 188
+      Height = 24
+      Caption = '00/00/0000 00:00:00'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clSilver
+      Font.Height = -19
+      Font.Name = 'Trebuchet MS'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 784
+    Top = 8
+  end
+end

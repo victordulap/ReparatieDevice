@@ -1,0 +1,134 @@
+object dm: Tdm
+  Left = 0
+  Top = 0
+  Caption = 'dm'
+  ClientHeight = 299
+  ClientWidth = 405
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'OSAuthent=Yes'
+      'Database=REPARATIE_DEVICE'
+      'Server=COMPUTER'
+      'DriverID=MSSQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 32
+    Top = 16
+  end
+  object QLiber: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from sector')
+    Left = 112
+    Top = 16
+  end
+  object QLogare: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from LUCRATOR '
+      'where LOGIN = :LOGIN and PASSWORD = :PASSWORD')
+    Left = 160
+    Top = 16
+    ParamData = <
+      item
+        Name = 'LOGIN'
+        DataType = ftString
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'PASSWORD'
+        DataType = ftString
+        ParamType = ptInput
+        Value = Null
+      end>
+  end
+  object QLiber2: TFDQuery
+    Connection = FDConnection1
+    Left = 112
+    Top = 72
+  end
+  object DSQLiber: TDataSource
+    DataSet = QLiber
+    Left = 168
+    Top = 72
+  end
+  object DSQRequest: TDataSource
+    DataSet = QRequest
+    Left = 344
+    Top = 248
+  end
+  object QRequest: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select c.*, ROW_NUMBER() over(order by c.client_id DESC) as nr, '
+      'c.nume + '#39' '#39' + c.prenume as npp,'
+      'f.nume + '#39' '#39' + m.nume as model_telefon,'
+      's.nume as sector,'
+      'p.problema as problema'
+      'from client c '
+      'inner join sector s on '
+      's.sector_id = c.sector_id'
+      'inner join problema p on'
+      'p.problema_id = c.problema_id'
+      'inner join model m on '
+      'm.model_id = c.model_id'
+      'inner join firma f on'
+      'f.firma_id = m.firma_id'
+      '--where gestionat != 2'
+      'order by data_request, c.client_id DESC')
+    Left = 344
+    Top = 208
+  end
+  object DSQModele: TDataSource
+    DataSet = QModele
+    Left = 344
+    Top = 144
+  end
+  object QModele: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select *,'
+      'f.nume + '#39' '#39' + m.nume as model_telefon'
+      'from model m inner join firma f on'
+      'f.firma_id = m.firma_id'
+      '')
+    Left = 344
+    Top = 104
+  end
+  object TFrima: TFDTable
+    IndexFieldNames = 'FIRMA_ID'
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'REPARATIE_DEVICE.dbo.FIRMA'
+    TableName = 'REPARATIE_DEVICE.dbo.FIRMA'
+    Left = 296
+    Top = 104
+  end
+  object DSTFirma: TDataSource
+    DataSet = TFrima
+    Left = 296
+    Top = 152
+  end
+  object TModel: TFDTable
+    MasterSource = DSTFirma
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'REPARATIE_DEVICE.dbo.FIRMA'
+    TableName = 'REPARATIE_DEVICE.dbo.FIRMA'
+    Left = 240
+    Top = 104
+  end
+  object DSTModel: TDataSource
+    DataSet = TModel
+    Left = 240
+    Top = 152
+  end
+end
